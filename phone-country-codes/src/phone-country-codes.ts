@@ -44,7 +44,7 @@ static styles = css`
   static getMetaConfig() {
     return {
       controlName: 'International Phone Numbers',
-      description: 'COuntry code by country',
+      description: 'Country code by country',
       iconUrl: 'one-line-text',
       groupName: 'Phone Numbers',
       fallbackDisableSubmit: false,
@@ -64,9 +64,7 @@ static styles = css`
         visibility: true,
         fieldLabel: true,
       },
-      designer: {
-        staticProperties: ["padDirection"],
-      },
+
     };
   }
 
